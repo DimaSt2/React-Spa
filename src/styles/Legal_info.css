@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "SF UI Display";
+    src: local("SF UI Display"),
+         url("../styles/fonts/SFUIDisplay-Light-300.woff2") format("woff2"),
+         url("../styles/fonts/SFUIDisplay-Light-300.woff") format("woff"),
+         url("../styles/fonts/SFUIDisplay-Light-300.eot") format("eot");
+  }
+
+@font-face {
+    font-family: Roboto;
+    src: local("Roboto"),
+         url("../styles/fonts/Roboto-Bold-700.ttf") format("ttf"),
+         url("../styles/fonts/Roboto-Regular-400.ttf") format("ttf"),
+         url("../styles/fonts/Roboto-Light-300.ttf") format("ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    margin: 0 auto;
+    background-color: #202021;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.header, .footer {
+    border: 1px solid green; 
+    background: linear-gradient(180deg, rgba(0, 251, 244, 0) 19.27%, rgba(0, 251, 244, 0.1) 80.73%);
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    line-height: 200px;
+}
+ 
+.header {
+    height: 152px;
+}
+
+.footer {
+    height: 254px;
+}
+
+.legal_content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 19px;
+}
+
+.registry_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 333px;
+    padding-top: 24px;
+    font-size: 14px;
+    line-height: 140%;
+    margin: 0 23px 24px 0;
+    color: rgba(254, 254, 254, 0.9);
+}
+
+.company_name {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.registry_data {
+    margin-bottom: 12px;
+}
+
+.mail {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.mail_img {
+    margin: 4px 8px 4px 0;
+}
+
+.company_mail, .docs {
+    font-size: 16px;
+    color: #00FBF4;
+}
+
+.company_mail {
+    text-decoration: none;
+}
+
+.docs {
+    margin-bottom: 24px;
+}
+
+.legal_btnToMain {
+    margin: 0 23px 24px 0;
+}
+
+
+/*  Privacy block styles*/
+
+
+.privacy_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    margin-bottom: 24px;
+}
+.privacyPdf {
+    display: flex;
+    justify-content: flex-end;
+    margin: 24px 12px 24px 0px;
+}
+
+.pdfLink {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-decoration: none;
+    margin-left: 5.83px;
+    color: #00FBF4;
+}
+
+.h4 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FEFEFE;
+    text-align: center;
+}
+
+.privacy_text{
+    max-width: 336px;
+    margin: 0 19px 24px 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FEFEFE;;
+}
+
+.privacy_btnToMain {
+    margin: 0 20px 24px 20px;
+}

@@ -1,0 +1,18 @@
+.toMain {
+    display: flex;
+    max-width: 335px;
+    height: 54px;
+    background: #FEFEFE;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+
+.toMain span {
+    margin: auto;
+    
+    color: #202021;
+    line-height: 120%;
+    font-weight: 700;
+    font-size: 16px;
+}
